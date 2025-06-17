@@ -47,16 +47,18 @@ This ensures that data is retained even after containers are stopped or removed.
 
 ## 📂 Project Structure
 
+```pgsql
 docker-node-mongo-app/
-├── Dockerfile
-├── docker-compose.yml
-├── server.js
-├── package.json
+├── node_modules/
 ├── public/
-│   └── index.html
-├── .dockerignore
-└── README.md
-
+│   ├── index.html
+│   └── style.css
+├── docker-compose.yml
+├── Dockerfile
+├── package.json
+├── package-lock.json
+└── server.js
+```
 
 ## 🛠️ Future Improvements
  * Add health checks for services
