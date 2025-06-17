@@ -12,7 +12,7 @@ A simple Express.js backend app running in Docker, connected to MongoDB, with Mo
 
 ```bash
 docker compose up -d --build
-
+```
 ## Access:
  * Node app: http://localhost:5050
  * Mongo Express: http://localhost:8081
