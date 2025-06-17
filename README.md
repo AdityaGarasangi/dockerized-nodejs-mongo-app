@@ -13,24 +13,24 @@ A simple Express.js backend app running in Docker, connected to MongoDB, with Mo
 ```bash
 docker compose up -d --build
 ```
-## Access:
+#### Access:
  * Node app: http://localhost:5050
  * Mongo Express: http://localhost:8081
 
-##API Endpoints
+## 📬 API Endpoints
 
 | Method | Endpoint  | Function      |
 | ------ | --------- | ------------- |
 | GET    | /getUsers | Get all users |
 | POST   | /addUser  | Add a user    |
 
-## Docker Volumes
+## 📦 Docker Volumes
 MongoDB data is persisted on host using a volume:
 ```bash
 /run/desktop/mnt/host/e/data:/data/db
 ```
 
-## Future Improvements
+## 🛠️ Future Improvements
  * Add healthchecks for services
  * Add .env file support
  * Add CI/CD pipeline using GitHub Actions
