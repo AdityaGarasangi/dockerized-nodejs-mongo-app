@@ -48,7 +48,30 @@ volumes:
   - /run/desktop/mnt/host/e/data:/data/db
 ```
 This ensures that data is retained even after containers are stopped or removed.
-
+---
+## 📷 Screenshots
+### ✅ Node.js App Running
+> Express app running on port 5050 with static HTML form.
+![Node App](./screenshots/node-app.png)
+---
+### ✅ Mongo Express UI
+> Mongo Express connected to MongoDB container.
+![Mongo Express](./screenshots/mongo-express-1.png)
+![Mongo Express](./screenshots/mongo-express-2.png)
+![Mongo Express](./screenshots/mongo-express-3.png)
+---
+### ✅ Docker Compose Up
+> Docker Compose command used to build and run services.
+![Docker Compose](./screenshots/compose-up.png)
+---
+### ✅ Docker Containers Running
+> `docker ps` showing all containers running with correct ports
+![Docker PS](./screenshots/docker-ps.png)
+---
+### ✅ Docker Hub Image
+> Project image available publicly on Docker Hub.
+![Docker Hub](./screenshots/docker-hub.png)
+---
 
 ## 📂 Project Structure
 
