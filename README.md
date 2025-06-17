@@ -68,10 +68,15 @@ This ensures that data is retained even after containers are stopped or removed.
 > `docker ps` showing all containers running with correct ports
 ![Docker PS](./screenshots/docker-ps.png)
 ---
+### ✅ API Response – `/getUsers`
+> Sample JSON output from the `/getUsers` endpoint showing user records fetched from MongoDB.
+![GET Users](./screenshots/api-response-2.png)
+---
 ### ✅ Docker Hub Image
 > Project image available publicly on Docker Hub.
 ![Docker Hub](./screenshots/docker-hub.png)
 ---
+
 
 ## 📂 Project Structure
 
